@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss",
+		"_sass/fonts.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n@import \"fonts\";\n",
+		".text-2xl{\n    font-size: 35pt;\n    font-family: \"BebasNeue\";\n}\n\nnav {\n    display: flex;\n    justify-content: space-evenly;\n    height: 100px;\n\n    .navlinks {\n        display: flex;\n        justify-content: left;\n        width: 40%;\n    }\n}\n",
+		"@font-face {\n    font-family: \"BebasNeue\";\n    src: url(../fonts/BebasNeue-Regular.woff2);\n    font-display: swap;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,SAAS,CAAA,EACL,SAAS,EAAE,IAAI,EACf,WAAW,EAAE,WAAW,GAC3B;;AAED,AAAA,GAAG,CAAC,EACA,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,YAAY,EAC7B,MAAM,EAAE,KAAK,GAOhB;;AAVD,AAKI,GALD,CAKC,SAAS,CAAC,EACN,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,IAAI,EACrB,KAAK,EAAE,GAAG,GACb;;ACdL,UAAU,GACN,WAAW,EAAE,WAAW,EACxB,GAAG,EAAE,qCAAqC,EAC1C,YAAY,EAAE,IAAI"
+}

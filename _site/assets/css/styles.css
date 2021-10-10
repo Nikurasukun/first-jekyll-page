@@ -1,0 +1,9 @@
+.text-2xl { font-size: 35pt; font-family: "BebasNeue"; }
+
+nav { display: flex; justify-content: space-evenly; height: 100px; }
+
+nav .navlinks { display: flex; justify-content: left; width: 40%; }
+
+@font-face { font-family: "BebasNeue"; src: url(../fonts/BebasNeue-Regular.woff2); font-display: swap; }
+
+/*# sourceMappingURL=styles.css.map */
